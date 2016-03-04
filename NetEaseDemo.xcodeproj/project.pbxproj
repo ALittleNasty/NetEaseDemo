@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8491958B1C7453520074914B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8491958A1C7453520074914B /* main.m */; };
+		8491958E1C7453520074914B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8491958D1C7453520074914B /* AppDelegate.m */; };
+		849195911C7453520074914B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849195901C7453520074914B /* ViewController.m */; };
+		849195941C7453520074914B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849195921C7453520074914B /* Main.storyboard */; };
+		849195961C7453520074914B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849195951C7453520074914B /* Assets.xcassets */; };
+		849195991C7453520074914B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849195971C7453520074914B /* LaunchScreen.storyboard */; };
+		849195A41C7453520074914B /* NetEaseDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849195A31C7453520074914B /* NetEaseDemoUITests.m */; };
+		849195B01C7475E10074914B /* YYConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 849195AF1C7475E10074914B /* YYConst.m */; };
+		849195B31C74C2800074914B /* YYContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849195B21C74C2800074914B /* YYContentViewController.m */; };
+		8495FABC1C76E1B2005AB967 /* YYHomeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495FABB1C76E1B2005AB967 /* YYHomeLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849195A01C7453520074914B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8491957E1C7453520074914B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849195851C7453520074914B;
+			remoteInfo = NetEaseDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		849195861C7453520074914B /* NetEaseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetEaseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8491958A1C7453520074914B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8491958C1C7453520074914B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8491958D1C7453520074914B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8491958F1C7453520074914B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		849195901C7453520074914B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		849195931C7453520074914B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		849195951C7453520074914B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		849195981C7453520074914B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8491959A1C7453520074914B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8491959F1C7453520074914B /* NetEaseDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetEaseDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849195A31C7453520074914B /* NetEaseDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetEaseDemoUITests.m; sourceTree = "<group>"; };
+		849195A51C7453520074914B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849195AE1C7475E10074914B /* YYConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYConst.h; sourceTree = "<group>"; };
+		849195AF1C7475E10074914B /* YYConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYConst.m; sourceTree = "<group>"; };
+		849195B11C74C2800074914B /* YYContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYContentViewController.h; sourceTree = "<group>"; };
+		849195B21C74C2800074914B /* YYContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYContentViewController.m; sourceTree = "<group>"; };
+		8495FABA1C76E1B2005AB967 /* YYHomeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHomeLabel.h; sourceTree = "<group>"; };
+		8495FABB1C76E1B2005AB967 /* YYHomeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYHomeLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849195831C7453520074914B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8491959C1C7453520074914B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8491957D1C7453520074914B = {
+			isa = PBXGroup;
+			children = (
+				849195881C7453520074914B /* NetEaseDemo */,
+				849195A21C7453520074914B /* NetEaseDemoUITests */,
+				849195871C7453520074914B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849195871C7453520074914B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849195861C7453520074914B /* NetEaseDemo.app */,
+				8491959F1C7453520074914B /* NetEaseDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849195881C7453520074914B /* NetEaseDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8491958C1C7453520074914B /* AppDelegate.h */,
+				8491958D1C7453520074914B /* AppDelegate.m */,
+				8491958F1C7453520074914B /* ViewController.h */,
+				849195901C7453520074914B /* ViewController.m */,
+				849195B11C74C2800074914B /* YYContentViewController.h */,
+				849195B21C74C2800074914B /* YYContentViewController.m */,
+				8495FABA1C76E1B2005AB967 /* YYHomeLabel.h */,
+				8495FABB1C76E1B2005AB967 /* YYHomeLabel.m */,
+				849195AE1C7475E10074914B /* YYConst.h */,
+				849195AF1C7475E10074914B /* YYConst.m */,
+				849195921C7453520074914B /* Main.storyboard */,
+				849195951C7453520074914B /* Assets.xcassets */,
+				849195971C7453520074914B /* LaunchScreen.storyboard */,
+				8491959A1C7453520074914B /* Info.plist */,
+				849195891C7453520074914B /* Supporting Files */,
+			);
+			path = NetEaseDemo;
+			sourceTree = "<group>";
+		};
+		849195891C7453520074914B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8491958A1C7453520074914B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		849195A21C7453520074914B /* NetEaseDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				849195A31C7453520074914B /* NetEaseDemoUITests.m */,
+				849195A51C7453520074914B /* Info.plist */,
+			);
+			path = NetEaseDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849195851C7453520074914B /* NetEaseDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849195A81C7453520074914B /* Build configuration list for PBXNativeTarget "NetEaseDemo" */;
+			buildPhases = (
+				849195821C7453520074914B /* Sources */,
+				849195831C7453520074914B /* Frameworks */,
+				849195841C7453520074914B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetEaseDemo;
+			productName = NetEaseDemo;
+			productReference = 849195861C7453520074914B /* NetEaseDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8491959E1C7453520074914B /* NetEaseDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849195AB1C7453520074914B /* Build configuration list for PBXNativeTarget "NetEaseDemoUITests" */;
+			buildPhases = (
+				8491959B1C7453520074914B /* Sources */,
+				8491959C1C7453520074914B /* Frameworks */,
+				8491959D1C7453520074914B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849195A11C7453520074914B /* PBXTargetDependency */,
+			);
+			name = NetEaseDemoUITests;
+			productName = NetEaseDemoUITests;
+			productReference = 8491959F1C7453520074914B /* NetEaseDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8491957E1C7453520074914B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = apple.com;
+				TargetAttributes = {
+					849195851C7453520074914B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = WRCYC694T5;
+					};
+					8491959E1C7453520074914B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = WRCYC694T5;
+						TestTargetID = 849195851C7453520074914B;
+					};
+				};
+			};
+			buildConfigurationList = 849195811C7453520074914B /* Build configuration list for PBXProject "NetEaseDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8491957D1C7453520074914B;
+			productRefGroup = 849195871C7453520074914B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849195851C7453520074914B /* NetEaseDemo */,
+				8491959E1C7453520074914B /* NetEaseDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849195841C7453520074914B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849195991C7453520074914B /* LaunchScreen.storyboard in Resources */,
+				849195961C7453520074914B /* Assets.xcassets in Resources */,
+				849195941C7453520074914B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8491959D1C7453520074914B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849195821C7453520074914B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849195911C7453520074914B /* ViewController.m in Sources */,
+				849195B01C7475E10074914B /* YYConst.m in Sources */,
+				8491958E1C7453520074914B /* AppDelegate.m in Sources */,
+				849195B31C74C2800074914B /* YYContentViewController.m in Sources */,
+				8491958B1C7453520074914B /* main.m in Sources */,
+				8495FABC1C76E1B2005AB967 /* YYHomeLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8491959B1C7453520074914B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849195A41C7453520074914B /* NetEaseDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		849195A11C7453520074914B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849195851C7453520074914B /* NetEaseDemo */;
+			targetProxy = 849195A01C7453520074914B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		849195921C7453520074914B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849195931C7453520074914B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		849195971C7453520074914B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849195981C7453520074914B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849195A61C7453520074914B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		849195A71C7453520074914B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849195A91C7453520074914B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NetEaseDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = young4ever.com.NetEaseDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		849195AA1C7453520074914B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NetEaseDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = young4ever.com.NetEaseDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		849195AC1C7453520074914B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NetEaseDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apple.com.NetEaseDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NetEaseDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		849195AD1C7453520074914B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NetEaseDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apple.com.NetEaseDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NetEaseDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849195811C7453520074914B /* Build configuration list for PBXProject "NetEaseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849195A61C7453520074914B /* Debug */,
+				849195A71C7453520074914B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849195A81C7453520074914B /* Build configuration list for PBXNativeTarget "NetEaseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849195A91C7453520074914B /* Debug */,
+				849195AA1C7453520074914B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849195AB1C7453520074914B /* Build configuration list for PBXNativeTarget "NetEaseDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849195AC1C7453520074914B /* Debug */,
+				849195AD1C7453520074914B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8491957E1C7453520074914B /* Project object */;
+}

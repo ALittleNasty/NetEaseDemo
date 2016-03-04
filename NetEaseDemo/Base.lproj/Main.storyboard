@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7Il-vz-Imc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--网易新闻-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAq-v3-O6Z">
+                                <rect key="frame" x="0.0" y="64" width="600" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="HVb-iS-7O6"/>
+                                </constraints>
+                            </scrollView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Br-Yv-TeO">
+                                <rect key="frame" x="0.0" y="104" width="600" height="496"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="0BQ-4C-Pmz"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iAq-v3-O6Z" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="B1T-oZ-RX6"/>
+                            <constraint firstItem="9Br-Yv-TeO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Uxz-1p-dYx"/>
+                            <constraint firstItem="iAq-v3-O6Z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fh1-OR-2mB"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9Br-Yv-TeO" secondAttribute="bottom" id="juJ-vL-hNC"/>
+                            <constraint firstItem="9Br-Yv-TeO" firstAttribute="top" secondItem="iAq-v3-O6Z" secondAttribute="bottom" id="m3G-OZ-LhO"/>
+                            <constraint firstAttribute="trailing" secondItem="9Br-Yv-TeO" secondAttribute="trailing" id="olW-a7-C2v"/>
+                            <constraint firstAttribute="trailing" secondItem="iAq-v3-O6Z" secondAttribute="trailing" id="ysW-ws-5st"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="网易新闻" id="jBW-5j-j4j"/>
+                    <connections>
+                        <outlet property="contentScrollView" destination="9Br-Yv-TeO" id="CyP-7i-FXP"/>
+                        <outlet property="titleScrollView" destination="iAq-v3-O6Z" id="Jcp-aD-Prl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="698" y="427"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zIy-dd-ThO">
+            <objects>
+                <navigationController id="7Il-vz-Imc" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pgV-b3-cVL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Az1-Vy-tig"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ek9-Ye-uJT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-18" y="723"/>
+        </scene>
+    </scenes>
+</document>
